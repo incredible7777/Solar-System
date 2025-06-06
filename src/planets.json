@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Sun",
+    "radius": 432000,
+    "distance": 0,
+    "period": 1,
+    "daylength": 600,
+    "type": "star",
+    "tilt": 0,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/sun.jpg"
+    }
+  },
+  {
+    "name": "Mercury",
+    "radius": 1516,
+    "distance": 56,
+    "period": 88,
+    "daylength": 4222.6,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 0.03,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/mercury.jpg",
+      "bump": "./textures/mercury-bump.jpg"
+    }
+  },
+  {
+    "name": "Venus",
+    "radius": 3760,
+    "distance": 108,
+    "period": 224,
+    "daylength": 2802,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 2.64,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/venus.jpg",
+      "bump": "./textures/venus-bump.jpg"
+    }
+  },
+  {
+    "name": "Earth",
+    "radius": 3959,
+    "distance": 152,
+    "period": 365,
+    "daylength": 24,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 23.44,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/earth.jpg",
+      "bump": "./textures/earth-bump.jpg",
+      "specular": "./textures/earth-specular.jpg",
+      "atmosphere": "./textures/earth-clouds.jpg",
+      "atmosphereAlpha": "./textures/earth-clouds-alpha.jpg"
+    }
+  },
+  {
+    "name": "Moon",
+    "radius": 1737,
+    "distance": 0.38,
+    "period": 0,
+    "daylength": -28,
+    "type": "moon",
+    "orbits": "Earth",
+    "tilt": 5.8,
+    "traversable": true,
+    "offset": -1.57,
+    "textures": {
+      "map": "./textures/moon.jpg",
+      "bump": "./textures/moon-bump.jpg"
+    },
+    "labels": [
+      { "name": "Apollo 11", "type": "landing", "y": 0.36, "z": 0.05 },
+      { "name": "Tycho Crater", "y": -0.18, "z": -0.64 },
+      { "name": "Yutu-2", "type": "rover", "y": 3.06, "z": 0.67 }
+    ]
+  },
+  {
+    "name": "Mars",
+    "radius": 2106,
+    "distance": 247,
+    "period": 686,
+    "daylength": 24.7,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 25.19,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/mars.jpg",
+      "bump": "./textures/mars-bump.jpg"
+    },
+    "labels": [
+      { "name": "Olympus Mons", "type": "mountain", "y": 0.59, "z": 0.52 },
+      { "name": "Tharsis Montes", "type": "mountain", "y": 1.13, "z": 0.28 },
+      { "name": "Valles Marineris", "y": 1.6, "z": 1.75 },
+      { "name": "Perseverance", "type": "rover", "y": -1.96, "z": -0.87 },
+      { "name": "Curiosity", "type": "rover", "y": -0.8, "z": -0.1 }
+    ]
+  },
+  {
+    "name": "Jupiter",
+    "radius": 43441,
+    "distance": 741,
+    "period": 4332,
+    "daylength": 9.9,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 3.13,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/jupiter.jpg"
+    },
+    "labels": [{ "name": "Great Red Spot", "y": -0.84, "z": -0.41 }]
+  },
+  {
+    "name": "Saturn",
+    "radius": 36184,
+    "distance": 1463,
+    "period": 10755,
+    "daylength": 10.7,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 26.73,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/saturn.jpg"
+    },
+    "labels": [{ "name": "Saturn's Hexagon", "y": 0, "z": 1.57 }]
+  },
+  {
+    "name": "Uranus",
+    "radius": 15759,
+    "distance": 2938,
+    "period": 30687,
+    "daylength": 17.2,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 82.23,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/uranus.jpg"
+    }
+  },
+  {
+    "name": "Neptune",
+    "radius": 15299,
+    "distance": 4474,
+    "period": 60190,
+    "daylength": 16.1,
+    "type": "planet",
+    "orbits": "Sun",
+    "tilt": 28.32,
+    "traversable": true,
+    "textures": {
+      "map": "./textures/neptune.jpg"
+    },
+    "labels": [{ "name": "Great Dark Spot", "y": 0.21, "z": -0.18 }]
+  },
+  {
+    "name": "Rings of Saturn",
+    "radius": 3,
+    "distance": 0,
+    "period": 1,
+    "daylength": 1,
+    "type": "ring",
+    "orbits": "Saturn",
+    "traversable": false,
+    "tilt": 26.73,
+    "textures": {
+      "map": "./textures/saturn-ring.png"
+    }
+  },
+  {
+    "name": "Ganymede",
+    "radius": 2634,
+    "distance": 1.07,
+    "period": 7.15,
+    "daylength": 9.9,
+    "type": "moon",
+    "orbits": "Jupiter",
+    "tilt": 3.33,
+    "traversable": false,
+    "textures": {
+      "map": "./textures/ganymede.jpg"
+    }
+  },
+  {
+    "name": "Titan",
+    "radius": 2574,
+    "distance": 1.2,
+    "period": 15.95,
+    "daylength": 10.7,
+    "type": "moon",
+    "orbits": "Saturn",
+    "tilt": 27,
+    "traversable": false,
+    "textures": {
+      "map": "./textures/titan.webp"
+    }
+  },
+  {
+    "name": "Callisto",
+    "radius": 2410,
+    "distance": 1.88,
+    "period": 16.69,
+    "daylength": 9.9,
+    "type": "moon",
+    "orbits": "Jupiter",
+    "tilt": 0,
+    "traversable": false,
+    "textures": {
+      "map": "./textures/callisto.jpg"
+    }
+  },
+  {
+    "name": "Io",
+    "radius": 1821,
+    "distance": 0.42,
+    "period": 1.77,
+    "daylength": 9.9,
+    "type": "moon",
+    "orbits": "Jupiter",
+    "tilt": 0.05,
+    "traversable": false,
+    "textures": {
+      "map": "./textures/io.jpg"
+    }
+  },
+  {
+    "name": "Europa",
+    "radius": 1560,
+    "distance": 0.67,
+    "period": 3.55,
+    "daylength": 9.9,
+    "type": "moon",
+    "orbits": "Jupiter",
+    "tilt": 0.47,
+    "traversable": false,
+    "textures": {
+      "map": "./textures/europa.jpg"
+    }
+  },
+  {
+    "name": "Triton",
+    "radius": 1353,
+    "distance": 0.35,
+    "period": 5.87,
+    "daylength": 16.1,
+    "type": "moon",
+    "orbits": "Neptune",
+    "tilt": 156,
+    "traversable": false,
+    "textures": {
+      "map": "./textures/triton.jpg"
+    }
+  }
+]
